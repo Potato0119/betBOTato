@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "bot":"node src/main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1"
+  }
+}
