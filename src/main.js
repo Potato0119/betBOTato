@@ -9,7 +9,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // 註冊一次性事件 (上線)
 client.once(Events.ClientReady, c => {
-	console.log(`${c.user.username}! 啟動!`);
+	console.log(`${c.user.username} 啟動!`);
 });
 
 
